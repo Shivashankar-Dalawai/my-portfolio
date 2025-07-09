@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Code, Database, Cloud, Brain, ChevronDown, Menu, X } from 'lucide-react';
-import profileImg from './venkteshreddy.jpeg';
+import profileImg from './Shivashankar_D.jpg';
 
 // Add CSS styles directly
 const styles = `
@@ -237,11 +237,19 @@ const Portfolio = () => {
   };
 
   const skills = {
-    technical: ['Python', 'Java', 'JavaScript', 'React.js', 'Node.js', 'HTML/CSS', 'MySQL', 'MongoDB', 'AWS', 'Machine Learning', 'Power BI'],
+    technical: ['Python', 'Java', 'JavaScript', 'React.js', 'Node.js', 'HTML/CSS', 'MySQL', 'MongoDB', 'AWS', 'Power BI', 'Business analysis'],
     soft: ['Problem-solving', 'Communication', 'Teamwork', 'Adaptability', 'Leadership', 'Analytical Thinking']
   };
 
   const projects = [
+    {
+      title: "A/B Testing for Product Feature Optimization",
+      description: "Designed and analyzed A/B tests to evaluate new UI features for a SaaS dashboard. Used statistical testing to measure impact on user engagement and conversion rate, and presented findings to stakeholders with actionable insights.",
+      tech: ["Python", "SQL", "Power BI", "Statistical Testing", "Excel"],
+      duration: "2024",
+      icon: <Brain size={24} />
+    },
+
     {
       title: "Machine Learning Employee Mental Health Analysis",
       description: "Full-stack application using Django backend and React frontend to analyze employee mental health using ML models with Keras.",
@@ -317,7 +325,7 @@ const Portfolio = () => {
   ];
 
   const certifications = [
-    "Web Development Bootcamp - UdemyS",
+    "Business analysis - Zeelcode labs",
     "Career Essentials in Data Analysis - Microsoft & LinkedIn",
     "Database Management System and SQL - Intellipaat",
     "Machine Learning A-Z - Udemy",
@@ -332,7 +340,7 @@ const Portfolio = () => {
         <div className="container">
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '20px 0' }}>
             <div className="gradient-text" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
-              Venkatesh Reddy
+              Shivashankar Dalawai
             </div>
             
             <div className="nav-menu">
@@ -363,7 +371,7 @@ const Portfolio = () => {
             
             <img 
               src={profileImg} 
-              alt="Venkatesh Reddy"
+              alt="Shivashankar Dalawai"
               className="profile-img"
             />
           </div>
@@ -372,10 +380,10 @@ const Portfolio = () => {
             Hey, I'm
           </h1>
           <h1 className="gradient-text" style={{ fontSize: '4rem', fontWeight: 'bold', marginBottom: '20px' }}>
-            Venkatesh Reddy
+            Shivashankar Dalwai
           </h1>
           <p style={{ fontSize: '1.5rem', color: '#d1d5db', marginBottom: '30px' }}>
-            Full Stack Developer & Data Analyst
+            Software Developer & Data/Business Analyst
           </p>
           
        
@@ -396,13 +404,13 @@ const Portfolio = () => {
           </div>
           
           <div className="social-links">
-            <a href="https://github.com/Venkteshramreddy" className="social-link">
+            <a href="https://github.com/Shivashankar-Dalawai" className="social-link">
               <Github size={24} />
             </a>
-            <a href="https://www.linkedin.com/in/venkteshreddy" className="social-link">
+            <a href="https://www.linkedin.com/in/dalawai" className="social-link">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:venkteshramreddy@gmail.com" className="social-link">
+            <a href="mailto:shivashankardalawai11@gmail.com" className="social-link">
               <Mail size={24} />
             </a>
           </div>
@@ -427,17 +435,17 @@ const Portfolio = () => {
               </p>
               
               <p style={{ color: '#d1d5db', fontSize: '1.1rem', marginBottom: '25px', lineHeight: '1.6' }}>
-                My journey spans across full-stack development, data analytics, and cloud engineering. 
-                I love building scalable applications and extracting meaningful insights from data to 
-                drive intelligent decision-making.
+                My journey bridges the worlds of software development and data analytics.
+                I enjoy building robust, user-centric applications and transforming complex data into actionable insights 
+                that support strategic business decisions.
               </p>
 
               <div className="grid" style={{ gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
                 <div>
                   <h4 style={{ color: '#60a5fa', fontWeight: '600', marginBottom: '10px' }}>Education</h4>
                   <p style={{ color: '#9ca3af' }}>B.Tech in Computer Science</p>
-                  <p style={{ color: '#9ca3af' }}>Srinivas University (7.5/10)</p>
-                  <p style={{ color: '#9ca3af' }}>2021 - 2025</p>
+                  <p style={{ color: '#9ca3af' }}>Srinivas University (8.0/10)</p>
+                  <p style={{ color: '#9ca3af' }}>2022 - 2025</p>
                 </div>
                 
               </div>
@@ -578,48 +586,48 @@ const Portfolio = () => {
           <h2 className="section-title gradient-text">Let's Connect</h2>
           
           <p style={{ color: '#d1d5db', fontSize: '1.1rem', marginBottom: '50px', maxWidth: '600px', margin: '0 auto 50px' }}>
-            I'm always interested in new opportunities and collaborations. 
-            Let's discuss how we can work together!
+           I'm always open to new opportunities and meaningful collaborations.
+Feel free to reach out — I'd be glad to discuss how we can work together and create value.
           </p>
           
           <div className="contact-grid">
             <a 
-              href="mailto:venkteshramreddy@gmail.com"
+              href="mailto:shivashankardalawai11@gmail.com"
               className="glass-card card"
               style={{ textDecoration: 'none', color: 'inherit', textAlign: 'center' }}
             >
               <Mail color="#60a5fa" size={32} style={{ margin: '0 auto 15px', display: 'block' }} />
               <h3 style={{ color: 'white', fontWeight: '600', marginBottom: '10px' }}>Email</h3>
-              <p style={{ color: '#9ca3af', fontSize: '0.875rem' }}>venkteshramreddy@gmail.com</p>
+              <p style={{ color: '#9ca3af', fontSize: '0.875rem' }}>shivashankardalawai11@gmail.com</p>
             </a>
             
             <a 
-              href="tel:+919535401825"
+              href="tel:+918496860465"
               className="glass-card card"
               style={{ textDecoration: 'none', color: 'inherit', textAlign: 'center' }}
             >
               <Phone color="#34d399" size={32} style={{ margin: '0 auto 15px', display: 'block' }} />
               <h3 style={{ color: 'white', fontWeight: '600', marginBottom: '10px' }}>Phone</h3>
-              <p style={{ color: '#9ca3af', fontSize: '0.875rem' }}>+91 9535401825</p>
+              <p style={{ color: '#9ca3af', fontSize: '0.875rem' }}>+91 8496860465</p>
             </a>
             
             <div className="glass-card card" style={{ textAlign: 'center' }}>
               <MapPin color="#a78bfa" size={32} style={{ margin: '0 auto 15px', display: 'block' }} />
               <h3 style={{ color: 'white', fontWeight: '600', marginBottom: '10px' }}>Location</h3>
-              <p style={{ color: '#9ca3af', fontSize: '0.875rem' }}>Koppal, Karnataka, India</p>
+              <p style={{ color: '#9ca3af', fontSize: '0.875rem' }}>Belagavi, Karnataka, India</p>
             </div>
           </div>
           
           <div style={{ display: 'flex', justifyContent: 'center', gap: '25px' }}>
             <a 
-              href="https://github.com/Venkteshramreddy"
+              href="https://github.com/Shivashankar-Dalawai"
               className="glass-card"
               style={{ padding: '20px', borderRadius: '50%', textDecoration: 'none' }}
             >
               <Github color="white" size={24} />
             </a>
             <a 
-              href="https://www.linkedin.com/in/venkteshreddy"
+              href="https://www.linkedin.com/in/dalawai"
               className="glass-card"
               style={{ padding: '20px', borderRadius: '50%', textDecoration: 'none' }}
             >
@@ -633,7 +641,7 @@ const Portfolio = () => {
       <footer style={{ padding: '30px 20px', borderTop: '1px solid rgba(255, 255, 255, 0.1)', background: 'rgba(0, 0, 0, 0.2)' }}>
         <div className="container" style={{ textAlign: 'center' }}>
           <p style={{ color: '#9ca3af' }}>
-            Venkatesh Reddy. Built with React & Custom CSS. (Hire me, and let's grow together)
+            Shivashankar Dalawai. Built with React & Custom CSS. (Hire me, and let's grow together)
           </p>
         </div>
       </footer>
